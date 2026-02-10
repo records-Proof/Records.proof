@@ -1,7 +1,7 @@
 {
-  "namespace": "records.proof",
+  "namespace": "record.proof",
   "classification": "pTLD instance under .proof",
-  "role": "publication + verification gateway",
+  "role": "publication + verification endpoint",
   "status": "Informational • Non-Binding",
   "assertions": {
     "asserts_authority": false,
@@ -10,11 +10,16 @@
   },
   "proofs": [
     {
-      "id": "ROOT_MANIFEST/v1.0",
-      "root_manifest": "/root.proof/index.json",
-      "proof_object": "/proofs/root_proof_object_v1.0.json",
-      "hash_manifest": "/hashes/root_pack_v1.0.sha256",
-      "verify": "/verify/verify_root_pack.sh"
+      "id": "FINALIZE/v1.0",
+      "proof_object": "/proofs/proof_object_finalize_v1.0.json",
+      "hash_manifest": "/hashes/finalize_pack_v1.0.sha256",
+      "verify": "/verify/verify_finalize_pack.sh"
+    },
+    {
+      "id": "IP_NOTICE/v1.0",
+      "proof_object": "/proofs/ip_notice_proof_object_v1.0.json",
+      "hash_manifest": "/hashes/ip_notice_pack_v1.0.sha256",
+      "verify": "/verify/verify_ip_notice_pack.sh"
     }
   ]
 }

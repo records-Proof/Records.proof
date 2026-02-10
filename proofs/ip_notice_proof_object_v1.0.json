@@ -1,0 +1,33 @@
+{
+  "proof_type": "proof_object",
+  "operation": "IP_NOTICE_PUBLISH",
+  "version": "v1.0",
+  "framework": "IDEA /.proof",
+  "status": "Informational \u2022 Non-Binding",
+  "canonicalization": {
+    "profile": "json_sorted_keys_compact",
+    "hash_algorithm": "sha256",
+    "fail_closed": true
+  },
+  "inputs": {
+    "footer_text_file": "IP_FOOTER_STRICT.txt",
+    "notice_file": "ip_notice.json"
+  },
+  "pinned_hashes": {
+    "IP_FOOTER_STRICT_txt_sha256": "718ef26b1eeccd513ae84c64b65febd8de3fc4ac6be0dd04916d96cdd2dc9b9b",
+    "ip_notice_json_sha256": "37f6c6dfaf36c1a54f4f55775f8cd2ca272340552b4977b20b33d68643477c71"
+  },
+  "assertions": {
+    "asserts_existence": true,
+    "asserts_integrity": true,
+    "asserts_truth": false,
+    "asserts_authority": false,
+    "asserts_endorsement": false,
+    "asserts_dns_delegation": false,
+    "asserts_registry": false
+  },
+  "notes": [
+    "This proof object pins the hashes for the strict IP footer and its machine-readable notice.",
+    "Verification is integrity-only; no truth/authority/endorsement is asserted."
+  ]
+}

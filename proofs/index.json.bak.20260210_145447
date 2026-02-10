@@ -1,0 +1,20 @@
+{
+  "namespace": "records.proof",
+  "classification": "pTLD instance under .proof",
+  "role": "publication + verification gateway",
+  "status": "Informational • Non-Binding",
+  "assertions": {
+    "asserts_authority": false,
+    "asserts_registry": false,
+    "asserts_dns_delegation": false
+  },
+  "proofs": [
+    {
+      "id": "ROOT_MANIFEST/v1.0",
+      "root_manifest": "/root.proof/index.json",
+      "proof_object": "/proofs/root_proof_object_v1.0.json",
+      "hash_manifest": "/hashes/root_pack_v1.0.sha256",
+      "verify": "/verify/verify_root_pack.sh"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "proof_type": "proof_object",
+  "operation": "PUBLISH_NOTICE",
+  "version": "v1.0",
+  "framework": "IDEA /.proof",
+  "status": "Informational • Non-Binding",
+  "canonicalization": {
+    "profile": "sha256_file_bytes",
+    "hash_algorithm": "sha256",
+    "fail_closed": true
+  },
+  "inputs": {
+    "notice_file": "proofs/notices/ip_notice_v1.0.json"
+  },
+  "pinned_hashes": {
+    "ip_notice_sha256": "1e882bc4935dd3662661e62fd310a2aa9d3d8b6fdb85fcfbf021b4a7b03adbbb"
+  },
+  "assertions": {
+    "asserts_existence": true,
+    "asserts_integrity": true,
+    "asserts_truth": false,
+    "asserts_authority": false,
+    "asserts_endorsement": false,
+    "asserts_dns_delegation": false,
+    "asserts_registry": false
+  }
+}

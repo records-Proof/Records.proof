@@ -1,0 +1,47 @@
+{
+  "notice_type": "IP_NOTICE",
+  "title": "Intellectual Property Notice (Strict)",
+  "version": "v1.0",
+  "author_of_record": "Kam Swygert",
+  "year": 2026,
+  "status": "Informational • Non-Binding",
+  "posture": {
+    "asserts_authority": false,
+    "asserts_registry": false,
+    "asserts_dns_delegation": false,
+    "asserts_endorsement": false,
+    "asserts_truth": false
+  },
+  "non_grant_of_rights": {
+    "statement": "No license is granted by publication, access, display, or reference.",
+    "scope": "All rights reserved unless expressly granted in a signed written license agreement."
+  },
+  "restrictions": [
+    "No copying",
+    "No reproduction",
+    "No modification",
+    "No distribution",
+    "No mirroring",
+    "No packaging",
+    "No republication",
+    "No derivative works"
+  ],
+  "license_exception": "Only as expressly permitted under a valid written license agreement executed by the Author of Record.",
+  "applies_to": [
+    "This repository and its structure",
+    "HTML pages",
+    "JSON manifests",
+    "Proof objects",
+    "Hash manifests",
+    "Verification scripts",
+    "Documentation"
+  ],
+  "canonical_files": {
+    "footer_text_file": "IP_FOOTER_STRICT.txt"
+  },
+  "canonicalization": {
+    "profile": "json_sorted_keys_compact",
+    "hash_algorithm": "sha256",
+    "fail_closed": true
+  }
+}

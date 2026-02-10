@@ -1,0 +1,48 @@
+{
+  "notice_type": "ip_notice",
+  "id": "IP_NOTICE/v1.0",
+  "version": "v1.0",
+  "status": "Informational • Non-Binding",
+  "author_of_record": "Kam Swygert",
+  "jurisdiction": "Unspecified (informational)",
+  "assertions": {
+    "asserts_existence": true,
+    "asserts_integrity": false,
+    "asserts_truth": false,
+    "asserts_authority": false,
+    "asserts_endorsement": false,
+    "asserts_dns_delegation": false,
+    "asserts_registry": false
+  },
+  "rights_statement": {
+    "copyright_notice": "© 2026 Kam Swygert. All Rights Reserved.",
+    "all_rights_reserved": true,
+    "no_license_by_publication": true,
+    "prohibited_without_written_license": [
+      "copying",
+      "reproduction",
+      "modification",
+      "distribution",
+      "mirroring",
+      "packaging",
+      "republication",
+      "derivative_works"
+    ],
+    "license_required": "A signed written license agreement executed by the Author of Record."
+  },
+  "incorporation_by_reference": {
+    "allowed_purpose": [
+      "define terminology",
+      "define namespace classification",
+      "define verification semantics"
+    ],
+    "not_granted_by_reference": [
+      "ownership",
+      "modification rights",
+      "sublicensing rights",
+      "redistribution rights",
+      "derivative rights"
+    ],
+    "condition": "Only as expressly permitted under a valid written license agreement."
+  }
+}
