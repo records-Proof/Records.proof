@@ -1,0 +1,29 @@
+{
+  "proof_type": "proof_object",
+  "operation": "ROOT_MANIFEST",
+  "version": "v1.0",
+  "framework": "IDEA /.proof",
+  "namespace": "root.proof",
+  "status": "Informational • Non-Binding",
+  "canonicalization": {
+    "profile": "bytes_exact",
+    "hash_algorithm": "sha256",
+    "fail_closed": true
+  },
+  "inputs": {
+    "file": "/root.proof/index.json"
+  },
+  "pinned_hashes": {
+    "root_proof_index_sha256": "59d2c3586550689cd271b312db1700d66c857ed90ff03963371e95306131d33b",
+    "root_proof_object_sha256": "4014c3c667574b04d030e02039a9e64269b1ede9f191c43c49c1f2cdca506b66"
+  },
+  "assertions": {
+    "asserts_existence": true,
+    "asserts_integrity": true,
+    "asserts_truth": false,
+    "asserts_authority": false,
+    "asserts_endorsement": false,
+    "asserts_dns_delegation": false,
+    "asserts_registry": false
+  }
+}

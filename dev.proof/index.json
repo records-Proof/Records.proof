@@ -1,0 +1,18 @@
+{
+  "namespace": "dev.proof",
+  "status": "Informational • Non-Binding",
+  "role": "dev namespace gateway (bridge)",
+  "assertions": {
+    "asserts_authority": false,
+    "asserts_registry": false,
+    "asserts_dns_delegation": false
+  },
+  "bridges": [
+    {
+      "id": "android_app_proof_url",
+      "type": "URL_BRIDGE",
+      "target": "https://android.app.proof/",
+      "notes": "Bridge only. No DNS claim. No ownership implied."
+    }
+  ]
+}

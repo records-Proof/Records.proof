@@ -1,0 +1,13 @@
+{
+  "namespace": "root.proof",
+  "status": "Informational • Non-Binding",
+  "assertions": {
+    "asserts_authority": false,
+    "asserts_registry": false,
+    "asserts_dns_delegation": false
+  },
+  "role": "local root recognition manifest (dev)",
+  "pinned": {
+    "record_proof_root": "https://record.proof/proofs/root.json"
+  }
+}

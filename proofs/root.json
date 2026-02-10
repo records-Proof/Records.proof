@@ -1,0 +1,20 @@
+{
+  "proof_type": "root_recognition_manifest",
+  "namespace": "records.proof",
+  "status": "Informational • Non-Binding",
+  "role": "gateway root for proof objects + indexes",
+  "assertions": {
+    "asserts_authority": false,
+    "asserts_registry": false,
+    "asserts_dns_delegation": false
+  },
+  "indexes": {
+    "artifacts": "/artifacts/index.json",
+    "proofs": "/proofs/index.json",
+    "hashes": "/hashes/index.json",
+    "verify": "/verify/index.json"
+  },
+  "routes": {
+    "dev.proof": "/dev.proof/index.json"
+  }
+}
