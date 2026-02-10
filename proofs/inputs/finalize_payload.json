@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "operation": "FINALIZE",
+    "glossary_version": "1.0",
+    "invariants_version": "1.0",
+    "addenda": ["CA-2026-03", "CA-2026-04"]
+  },
+  "keys": [
+    {
+      "key_id": "ed25519:decision_key_01",
+      "algorithm": "Ed25519",
+      "public_key": "BASE64URL_PUBLIC_KEY",
+      "class": "DECISION_SIGNER",
+      "allowed_contexts": ["CONTROL_LAYER/DECISION/v1"],
+      "not_before": "2026-01-01T00:00:00Z",
+      "expires_at": "2027-01-01T00:00:00Z",
+      "allowed_streams": ["SC-TRS-01"]
+    }
+  ],
+  "records": {
+    "request": { "...": "..." },
+    "decision": { "...": "..." },
+    "execution": { "...": "..." },
+    "outcome": { "...": "..." }
+  }
+}

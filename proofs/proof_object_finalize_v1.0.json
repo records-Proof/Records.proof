@@ -1,0 +1,26 @@
+{
+  "proof_type": "proof_object",
+  "operation": "FINALIZE",
+  "version": "v1.0",
+  "framework": "IDEA /.proof",
+  "status": "Informational • Non-Binding",
+  "canonicalization": {
+    "profile": "json_sorted_keys_compact",
+    "hash_algorithm": "sha256",
+    "fail_closed": true
+  },
+  "inputs": {
+    "payload_file": "finalize_payload.json",
+    "receipt_file": "finalize_receipt.json"
+  },
+  "pinned_hashes": {
+    "payload_canonical_sha256": "c798b5a1d4c378d6453423eab2ea078cb79e6cd9d8aa5a9a247ab1d7438c401e"
+  },
+  "assertions": {
+    "asserts_existence": true,
+    "asserts_integrity": true,
+    "asserts_truth": false,
+    "asserts_authority": false,
+    "asserts_endorsement": false
+  }
+}
