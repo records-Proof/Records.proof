@@ -1,0 +1,27 @@
+{
+  "id": "BASHRC_PACK/v1.0",
+  "namespace": "record.proof",
+  "status": "Informational • Non-Binding",
+  "purpose": "Integrity proof for local shell environment configuration (execution surface)",
+  "assertions": {
+    "asserts_authority": false,
+    "asserts_registry": false,
+    "asserts_dns_delegation": false,
+    "asserts_truth": false
+  },
+  "artifacts": [
+    {
+      "path": "/artifacts/.bashrc",
+      "role": "shell configuration"
+    },
+    {
+      "path": "/artifacts/.bashrc.sha256",
+      "role": "sha256 pin for shell configuration"
+    }
+  ],
+  "hash_manifest": "/hashes/bashrc_pack_v1.0.sha256",
+  "verification": {
+    "method": "sha256",
+    "fail_closed": true
+  }
+}

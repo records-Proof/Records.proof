@@ -20,6 +20,12 @@
       "proof_object": "/proofs/ip_notice_proof_object_v1.0.json",
       "hash_manifest": "/hashes/ip_notice_pack_v1.0.sha256",
       "verify": "/verify/verify_ip_notice_pack.sh"
+    },
+    {
+      "id": "BASHRC_PACK/v1.0",
+      "proof_object": "/proofs/proof_object_bashrc_v1.0.json",
+      "hash_manifest": "/hashes/bashrc_pack_v1.0.sha256",
+      "verify": "/verify/verify_bashrc_pack.sh"
     }
   ]
 }
