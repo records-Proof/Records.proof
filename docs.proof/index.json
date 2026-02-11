@@ -1,0 +1,18 @@
+{
+  "namespace": "docs.proof",
+  "status": "Informational • Non-Binding",
+  "role": "documentation namespace (human-facing support, non-authoritative)",
+  "assertions": {
+    "asserts_authority": false,
+    "asserts_registry": false,
+    "asserts_dns_delegation": false
+  },
+  "documents": [
+    {
+      "id": "INDEX/v1.0",
+      "type": "HTML_GATEWAY",
+      "path": "/docs.proof/index.html",
+      "notes": "Human-readable documentation gateway. No authority implied."
+    }
+  ]
+}

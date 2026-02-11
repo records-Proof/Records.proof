@@ -1,0 +1,28 @@
+{
+  "id": "DOCS_PROOF/v1.0",
+  "namespace": "docs.proof",
+  "status": "Informational • Non-Binding",
+  "purpose": "Integrity proof for documentation namespace artifacts",
+  "assertions": {
+    "asserts_authority": false,
+    "asserts_registry": false,
+    "asserts_dns_delegation": false,
+    "asserts_truth": false
+  },
+  "artifacts": [
+    {
+      "path": "/docs.proof/index.json",
+      "role": "documentation namespace manifest"
+    },
+    {
+      "path": "/docs.proof/index.html",
+      "role": "human-readable documentation gateway",
+      "optional": true
+    }
+  ],
+  "hash_manifest": "/hashes/docs_proof_pack_v1.0.sha256",
+  "verification": {
+    "method": "sha256",
+    "fail_closed": true
+  }
+}
